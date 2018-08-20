@@ -1,0 +1,29 @@
+.sidebar-menu .treeview .slide-icon {
+  width: 100%;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.sidebar-menu .treeview .slide-icon1 {
+  background: url(../../imgs/slider-bar/slider-icon1.png) center no-repeat;
+}
+.sidebar-menu .treeview .slide-icon2 {
+  background: url(../../imgs/slider-bar/slider-icon2.png) center no-repeat;
+}
+.sidebar-menu .treeview .slide-icon3 {
+  background: url(../../imgs/slider-bar/slider-icon3.png) center no-repeat;
+}
+.sidebar-menu .treeview .slide-icon4 {
+  background: url(../../imgs/slider-bar/slider-icon4.png) center no-repeat;
+}
+.sidebar-menu .treeview .slide-icon5 {
+  background: url(../../imgs/slider-bar/slider-icon5.png) center no-repeat;
+}
+.sidebar-menu .treeview .slide-icon6 {
+  background: url(../../imgs/slider-bar/slider-icon6.png) center no-repeat;
+}
+.sidebar-menu .treeview .slide-icon7 {
+  background: url(../../imgs/slider-bar/slider-icon7.png) center no-repeat;
+}
+
+/*# sourceMappingURL=main.css.map */
