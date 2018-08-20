@@ -93,6 +93,16 @@ $(function () {
         }
      ]
      var option1 = {
+        title: {
+            text: '分布统计',
+            x: 'center',
+            y: 'center',
+            textStyle: {
+                fontWeight: 'normal',
+                color: '#b6c2e1',
+                fontSize: '16'
+            }
+        },
          grid:{
             left:"10%"
          },
@@ -184,39 +194,81 @@ $(function () {
          return label;
      }
      var data = [{
-             value: 1005,
+             value: 1000,
              name: '健康企业',
              label:setborder(colors[0]),
              itemStyle:{
                  normal:{
-                     color:colors[0]
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+
+
+                        // 0% 处的颜色   
+                       offset: 0, color: '#617ebc'  },
+                      {
+                       
+                       // 100% 处的颜色
+                      offset: 1, color: '#254083' 
+                     }], false)
                  }   
              }
          },
          {
-             value: 20,
+             value: 100,
              name: '预警企业',
              label:setborder(colors[1]),
              itemStyle:{
                  normal:{
-                     color:colors[1]
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+
+
+                        // 0% 处的颜色   
+                       offset: 0, color: '#e5666f'  },
+                      {
+                       
+                       // 100% 处的颜色
+                      offset: 1, color: '#e5666f' 
+                     }], false)
                  }
              }
          },
          {
-             value: 200,
+             value: 100,
              name: '风险企业',
              label:setborder(colors[2]),
              itemStyle:{
                  normal:{
-                     color:colors[2]
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+
+
+                        // 0% 处的颜色   
+                       offset: 0, color: '#f4d559'  },
+                      {
+                       
+                       // 100% 处的颜色
+                      offset: 1, color: '#dec768' 
+                     }], false)
                  }
              }
          }
      ]
      var option2 = {
+        title: {
+            subtext:'企业健康统计',
+            text: '  2638',
+            x:'42%',
+            y:'42%',
+            textStyle: {
+                fontWeight: 'normal',
+                color: '#FFF',
+                fontSize: '16',
+                padding:20,
+            },
+            subtextStyle:{
+                color:'#fff;'
+            }
+        },
          grid:{
-            left:"5%"
+            left:"2%"
          },
          tooltip: {
              trigger: 'item',
@@ -226,7 +278,7 @@ $(function () {
              show:true,
              icon:'circle',
              top: 'bottom',
-             right: '20%',
+             right: '10%',
              itemWidth:8,
              itemHeight:8,
              // data: ['直接访问', '邮件营销', '联盟广告', '视频广告', '搜索引擎']
@@ -247,7 +299,6 @@ $(function () {
              name: '维修状态占比',
              type: 'pie',
              radius: "50%",
-             roseType:"angle",
              avoidLabelOverlap: false,//防止标签重叠 true
              center: ['55%', '50%'],
              data: data

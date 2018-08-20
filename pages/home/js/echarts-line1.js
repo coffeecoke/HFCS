@@ -10,12 +10,12 @@ $(function () {
                 color:"#000",
             },   
             formatter:function(params){
-                return '<div style="background:url(../imgs/tooltip.png);background-size:100%;width:200px;height:100px;position:absolute;z-index:100;">'+
-                '<span style="padding:5px 10px;">'+"2018年01月成交额"+'</span></br>'+
-                '<span style="padding:10px 10px;"><b style="font-size:16px;color:#1d3e96;">'+params[0].data+'</b>'+"亿"+'</span>'+
-                '<span style="padding:10px 10px;"><b style="font-size:16px;color:#1d3e96;">'+params[0].data+'</b>'+"%"+'</span></br>'+
-                '<span style="padding:10px 10px;">'+"成交额"+'</span>'+
-                '<span style="padding:10px 10px;">'+"增速"+'</span>'+
+                return '<div style="background:url(imgs/tooltip.png) no-repeat center;background-size:100%;width:200px;height:120px;">'+
+                '<span style="padding:25px 30px 0 30px;display:inline-block;">'+"2018年01月成交额"+'</span></br>'+
+                '<span style="padding:0px 30px;display:inline-block;"><b style="font-size:16px;color:#1d3e96;">'+params[0].data+'</b>'+"亿"+'</span>'+
+                '<span style="padding:0px 0px;display:inline-block;"><b style="font-size:16px;color:#1d3e96;">'+params[0].data+'</b>'+"%"+'</span></br>'+
+                '<span style="padding:0px 30px;display:inline-block;">'+"成交额"+'</span>'+
+                '<span style="padding:0px 0px;display:inline-block;">'+"增速"+'</span>'+
                 '</div>'
 
             },

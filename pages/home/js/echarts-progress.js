@@ -13,10 +13,11 @@ var city = [ '恩科e贷   ', '冀金宝      ', '宜民贷      ', '冠腾贷  
     
     color: ['#f27f87'], //进度条颜色
     grid: {
-         left: '10%',  //如果离左边太远就用这个......
+         left: '2%',  //如果离左边太远就用这个......
          //right: '14%',
-         bottom: '5%',
-         top: '5%',
+         bottom: '2%',
+         top: '2%',
+         right:'2%',
          containLabel: true
      },
     xAxis: [{
@@ -49,7 +50,7 @@ var city = [ '恩科e贷   ', '冀金宝      ', '宜民贷      ', '冠腾贷  
             show: true,
             type: 'bar',
             barGap: '-100%',
-            barWidth: '35%', //统计条宽度 
+            barWidth: '25%', //统计条宽度 
             itemStyle: {
                 normal: {
                     barBorderRadius: 15,
@@ -64,7 +65,7 @@ var city = [ '恩科e贷   ', '冀金宝      ', '宜民贷      ', '冠腾贷  
             show: true,
             type: 'bar',
             barGap: '-100%',
-            barWidth: '35%', //统计条宽度
+            barWidth: '25%', //统计条宽度
             itemStyle: {
                 normal: {
                     barBorderRadius: 20, //统计条弧度
