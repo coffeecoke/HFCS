@@ -4,16 +4,34 @@
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	padding-left: 35px;
-	.treeview-menu {
-	  padding-left: 20px;
+	border:1px solid #d0d2d6;
+	padding:18px;
+	position: absolute;
+	width: 250px;
+	left: 90px;
+	background-color:#e0e1e8;
+	border-radius: 5px;
+	&:before {
+		content:'';
+		position: absolute;
+		top:20px;
+		left:-5px;
+		width:10px;
+		height:10px;
+		border:inherit;
+		border-right: none;
+		border-top:none;
+		background-color: inherit;
+		transform:rotate(45deg)
 	}
 	> li {
-	  margin: 0;
+		margin: 0;
+		
 	  > a {
-	    padding: 5px 5px 5px 15px;
 	    display: block;
-	    font-size: 14px;
+			font-size: 14px;
+			color:#1b2b73;
+			margin-bottom:16px;
 	    > .fa,
 	    > .glyphicon,
 	    > .ion {
@@ -26,5 +44,29 @@
 	      width: auto;
 	    }
 	  }
+	}
+	.third-menu {
+		overflow: hidden;
+		> li {
+			width:50%;
+			float:left;
+			margin-bottom:20px;
+			position: relative;
+			padding-left:10px;
+			&:before {
+				content:'';
+				position: absolute;
+				width:4px;
+				height:4px;
+				border-radius: 50%;
+				top:50%;
+				transform:translateY(-50%);
+				left:0;
+				background-color: #6d88c8;
+			}
+			> a {
+
+			}
+		}
 	}
 }
