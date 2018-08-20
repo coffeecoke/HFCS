@@ -178,5 +178,12 @@
   background: url(../../../imgs/header/navbar-icon6.png) center no-repeat;
   background-size: 80% 80%;
 }
+.w100 .list-legend {
+  float: right;
+}
+.w100 .list-legend li {
+  float: left;
+  color: #000;
+}
 
 /*# sourceMappingURL=home.css.map */
