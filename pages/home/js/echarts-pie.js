@@ -24,7 +24,6 @@ $(function () {
                          width: '100%',
                          borderWidth: 1,
                          height: 0,
-                         
                      },
                      b: {
                          fontSize: 12,
@@ -162,7 +161,7 @@ $(function () {
              labelLine: {
                 normal: {
                     lineStyle: {
-                        color: '#dbdbdb'
+                        color: '#5a5a5a'
                     },
                     smooth: 0.2,
                     length: 10,
