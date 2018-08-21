@@ -32,12 +32,12 @@
         padding-top: 80px;
         background: -webkit-linear-gradient(left, rgba(38, 56, 128, .8), rgba(98, 130, 186, .8));
         border: none;
-        >ul>li {
+        >ul>li{
             width: 100%;
             height: 70px;
             cursor: pointer;
             position: relative;
-            &.active:after {
+            &.active:after{
                 content:'';
                 width:30px;
                 height:30px;
@@ -186,12 +186,162 @@
    
    
 }
-.w100{
-    .list-legend{
-        float:right;
-        li{
-            float: left;
-            color:#000;
+
+.content{
+    .w100{
+        .list-li{
+            float:right;
+            overflow: hidden;
+            li{
+                font-size:14px;
+                float: left;
+                color:#000;
+                padding:0 30px;
+
+            position: relative;
+                &:before{
+                    content:"";
+                    width:12px;
+                    height:12px;
+                    position: absolute;
+                    top:2px;
+                }
+            }
+            .color1{
+                &:before{
+                    left:12px;
+                    background: #e9727a;
+                }
+            }
+            .color2{
+                &:before{
+                    left:12px;
+                    background: #627cb5;
+                }
+            }
+            .color3{
+                &:before{
+                    left:12px;
+                    background: #3b5ba2;
+                }
+            }
+            
         }
     }
+}
+.box-title-fl{
+    .box-title{
+        float:left;
+    }
+    .box-right-nav{
+        float: right;
+        margin-top:26px;
+        margin-bottom:20px;
+        width:403px;
+        box-sizing: border-box;
+        height:32px;
+        border:solid 1px #ccc;
+        position:relative;
+        overflow:hidden;
+        border-radius: 15px;
+        .nav-list-animate{
+            position:absolute;
+            overflow:hidden;
+            z-index:1;
+            li{
+                float: left;
+                font-size:12px;
+                width:100px;
+                text-align: center;
+                border-right:solid 1px #ccc;
+                box-sizing: border-box;
+                a{
+                    width:100%;
+                    display: block;
+                    line-height:32px;
+                    color:#000;
+                }
+            }
+            li:last-child{
+                border-right:none;
+            }
+        }
+    }
+}
+.box-title-fl{
+.nav-list-animate{
+ li.active{
+    a{
+        color:#fff;
+    }
+ }
+}
+}
+.box-title-fr{
+    .box-title{
+        float:left;
+    }
+    .box-right-navs{
+        float: right;
+        margin-top:26px;
+        margin-bottom:20px;
+        width:403px;
+        box-sizing: border-box;
+        height:32px;
+        border:solid 1px #ccc;
+        position:relative;
+        overflow:hidden;
+        border-radius: 15px;
+        .nav-list-animates{
+            position:absolute;
+            overflow:hidden;
+            z-index:1;
+            li{
+                float: left;
+                font-size:12px;
+                width:100px;
+                text-align: center;
+                border-right:solid 1px #ccc;
+                box-sizing: border-box;
+                a{
+                    width:100%;
+                    display: block;
+                    line-height:32px;
+                    color:#000;
+                }
+            }
+            li:last-child{
+                border-right:none;
+            }
+        }
+    }
+}
+.box-title-fr{
+    .nav-list-animates{
+     li.actives{
+        a{
+            color:#fff;
+        }
+     }
+    }
+    }
+.color-slider{
+    width:100px;
+    height:32px;
+    position:absolute;
+    top: 0;
+    left:0;
+    z-index:0;
+    box-sizing: border-box;
+    background:linear-gradient(left,#3862c1,#6381c7)
+}
+.color-sliders{
+    width:100px;
+    height:32px;
+    position:absolute;
+    top: 0;
+    left:0;
+    z-index:0;
+    box-sizing: border-box;
+    background:linear-gradient(left,#3862c1,#6381c7)
 }

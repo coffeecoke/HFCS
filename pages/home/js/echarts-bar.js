@@ -56,11 +56,6 @@ var option = {
             }
         }
     },
-    dataZoom: [
-        {
-            type: 'inside'
-        }
-    ],
     series: [
         
         {
@@ -152,11 +147,6 @@ var option2 = {
             }
         }
     },
-    dataZoom: [
-        {
-            type: 'inside'
-        }
-    ],
     series: [
         
         {
