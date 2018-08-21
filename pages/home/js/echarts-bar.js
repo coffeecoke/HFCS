@@ -33,14 +33,20 @@ var option = {
             show: false
         },
         axisLine: {
-            show: false
+            show: true,
+            lineStyle:{
+                color:"#dbdbdb"
+            }
         },
     },
     yAxis: {
         max: 50,
         min: 0,
         axisLine: {
-            show: true
+            show: true,
+            lineStyle:{
+                color:"#dbdbdb"
+            }
         },
         axisTick: {
             show: true
@@ -124,14 +130,20 @@ var option2 = {
             show: false
         },
         axisLine: {
-            show: false
+            show: true,
+            lineStyle:{
+                color:"#dbdbdb"
+            }
         },
     },
     yAxis: {
         max: 50,
         min: 0,
         axisLine: {
-            show: true
+            show: true,
+            lineStyle:{
+                color:"#dbdbdb"
+            }
         },
         axisTick: {
             show: true

@@ -37,8 +37,8 @@ $(function () {
                 show: false,
             },
             axisLine:{
-                lineStyle: {
-                    color: '#a4a4a4',
+                lineStyle:{
+                    color:"#dbdbdb"
                 }
             },
             gridIndex: 0,
@@ -58,8 +58,8 @@ $(function () {
                 interval:0,
             },
             axisLine:{
-                lineStyle: {
-                    color: '#a4a4a4',
+                lineStyle:{
+                    color:"#dbdbdb"
                 }
             },
         },
@@ -135,8 +135,8 @@ $(function () {
                 show: false,
             },
             axisLine:{
-                lineStyle: {
-                    color: '#a4a4a4',
+                lineStyle:{
+                    color:"#dbdbdb"
                 }
             },
             gridIndex: 0,
@@ -156,8 +156,8 @@ $(function () {
                 interval:0,
             },
             axisLine:{
-                lineStyle: {
-                    color: '#a4a4a4',
+                lineStyle:{
+                    color:"#dbdbdb"
                 }
             },
         },

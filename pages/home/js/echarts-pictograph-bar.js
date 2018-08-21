@@ -36,9 +36,14 @@ $(function () {
                     show:false
                 },
                 axisLabel: {
-                    color: '#000',
+                    color: '#dbdbdb',
                     fontSize: 12,
                     interval:0,
+                },
+                axisLine:{
+                    lineStyle:{
+                        color:"#a4a4a4"
+                    }
                 },
                 splitLine: {
                     show: false
@@ -69,8 +74,13 @@ $(function () {
             //     }
             // },
             axisLabel: {
-                color: '#000',
+                color: '#dbdbdb',
                 fontSize: 12
+            },
+            axisLine:{
+                lineStyle:{
+                    color:"#a4a4a4"
+                }
             },
             splitLine: {
                 lineStyle: {
