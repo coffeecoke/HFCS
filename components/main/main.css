@@ -4,6 +4,9 @@
   display: inline-block;
   vertical-align: middle;
 }
+.sidebar-menu .treeview:hover > a {
+  background: url(../../imgs/slider-bar/slider-icon-bg.png) center 10px no-repeat !important;
+}
 .sidebar-menu .treeview .slide-icon1 {
   background: url(../../imgs/slider-bar/slider-icon1.png) center no-repeat;
 }

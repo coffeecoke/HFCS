@@ -1,16 +1,37 @@
+.main-header {
+    .logo1 {
+        background: url('../../../imgs/header/logo1.png') left center no-repeat;
+    }
+    .logo2 {
+        background: url(../../../imgs/header/logo2.png) left center no-repeat;
+    }
+    .logo3 {
+        background: url(../../../imgs/header/logo3.png) left center no-repeat;
+    }
+    .logo4 {
+        background: url(../../../imgs/header/logo4.png) left center no-repeat;
+    }
+    .logo5 {
+        background: url(../../../imgs/header/logo5.png) left center no-repeat;
+    }
+    .logo6 {
+        background: url(../../../imgs/header/logo6.png) left center no-repeat;
+    }
+} 
+
 .sys-toggle {
-    width: 320px;
+    width: 364px;
     height: 70px;
     float: left;
     margin-left: 10px;
     position: relative;
-    >.logo1 {
+    >.header-logo {
         position: absolute;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
-        background: url('../../../imgs/header/logo1.png') left center no-repeat;
+        
         z-index: 2;
     }
     .dropdown-toggle {
@@ -37,7 +58,8 @@
             height: 70px;
             cursor: pointer;
             position: relative;
-            &.active:after {
+            &.active:after,
+            &:hover:after{
                 content:'';
                 width:30px;
                 height:30px;
@@ -49,21 +71,7 @@
             }
         
         }
-        .logo2 {
-            background: url(../../../imgs/header/logo2.png) left center no-repeat;
-        }
-        .logo3 {
-            background: url(../../../imgs/header/logo3.png) left center no-repeat;
-        }
-        .logo4 {
-            background: url(../../../imgs/header/logo4.png) left center no-repeat;
-        }
-        .logo5 {
-            background: url(../../../imgs/header/logo5.png) left center no-repeat;
-        }
-        .logo6 {
-            background: url(../../../imgs/header/logo6.png) left center no-repeat;
-        }
+        
     }
 }
 

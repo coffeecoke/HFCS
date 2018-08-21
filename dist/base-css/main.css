@@ -2524,7 +2524,6 @@ a:focus {
 .nav > li > a:active,
 .nav > li > a:focus {
   color: #444;
-  background: #f7f7f7;
 }
 /* NAV PILLS */
 .nav-pills > li > a {
@@ -3621,7 +3620,7 @@ table.text-center th {
  * ----------
  */
 .skin-blue .main-header {
-  background: #223278 url('../../imgs/header/header-bg.jpg') right center no-repeat;
+  background: #1c2a71 url('../../imgs/header/header-bg.jpg') right center no-repeat;
 }
 .skin-blue .main-header .navbar {
   background: transparent;
@@ -3629,14 +3628,10 @@ table.text-center th {
 .skin-blue .main-header .navbar .nav > li > a {
   color: #fff;
 }
-.skin-blue .main-header .navbar .nav > li > a:hover,
 .skin-blue .main-header .navbar .nav > li > a:active,
-.skin-blue .main-header .navbar .nav > li > a:focus,
 .skin-blue .main-header .navbar .nav .open > a,
-.skin-blue .main-header .navbar .nav .open > a:hover,
-.skin-blue .main-header .navbar .nav .open > a:focus,
 .skin-blue .main-header .navbar .nav > .active > a {
-  background: rgba(0, 0, 0, 0.1);
+  background: none;
   color: #f6f6f6;
 }
 .skin-blue .main-header .navbar .sidebar-toggle {
@@ -3644,7 +3639,7 @@ table.text-center th {
 }
 .skin-blue .main-header .navbar .sidebar-toggle:hover {
   color: #f6f6f6;
-  background: rgba(0, 0, 0, 0.1);
+  background: none;
 }
 .skin-blue .main-header .navbar .sidebar-toggle {
   color: #fff;

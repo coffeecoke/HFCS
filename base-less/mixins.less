@@ -2,19 +2,19 @@
 //===============
 
 //Changes the color and the hovering properties of the navbar
-.navbar-variant(@color; @font-color: rgba(255, 255, 255, 0.8); @hover-color: #f6f6f6; @hover-bg: rgba(0, 0, 0, 0.1)) {
+.navbar-variant(@color; @font-color: rgba(255, 255, 255, 0.8); @hover-color: #f6f6f6; @hover-bg: none) {
   background: @color;
   //Navbar links
   .nav > li > a {
     color: @font-color;
   }
 
-  .nav > li > a:hover,
+  // .nav > li > a:hover,
   .nav > li > a:active,
-  .nav > li > a:focus,
+  // .nav > li > a:focus,
   .nav .open > a,
-  .nav .open > a:hover,
-  .nav .open > a:focus,
+  // .nav .open > a:hover,
+  // .nav .open > a:focus,
   .nav > .active > a {
     background: @hover-bg;
     color: @hover-color;
@@ -237,7 +237,8 @@
     &:hover > a,
     &.active > a {
       color: @sidebar-light-hover-color;
-      background: @sidebar-light-hover-bg;
+      // background: @sidebar-light-hover-bg;
+      background: transparent;
     }
     &:hover > a {
 
