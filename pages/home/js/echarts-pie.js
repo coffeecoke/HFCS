@@ -8,23 +8,31 @@ $(function () {
      function setborder(colors){
          var label={
              normal: {
-                 formatter: '  {b|{c}}家\n{hr|}\n{b|{b}}',
+                 formatter: '  {c|{c}}家\n{hr|}\n{b|{b}}',
                  borderWidth: 1,
                  borderRadius: 4,
+                 textStyle: {
+                    color: '#5a5a5a'
+                },
                  rich: {
                      a: {
                          lineHeight: 22,
                          align: 'center'
                      },
                      hr: {
-                         borderColor:colors,
+                         borderColor:"#5a5a5a",
                          width: '100%',
-                         borderWidth: 0.5,
+                         borderWidth: 1,
                          height: 0
                      },
                      b: {
                          fontSize: 12,
-                         lineHeight: 14
+                         lineHeight: 14,
+                         color:'#5a5a5a'
+                     },
+                     c:{
+                         fontSize:18,
+                         color:'#000'
                      }
                  }
              }
@@ -149,6 +157,23 @@ $(function () {
              name: '维修状态占比',
              type: 'pie',
              radius: ['25%', '45%'],
+             labelLine: {
+                normal: {
+                    lineStyle: {
+                        color: '#5a5a5a'
+                    },
+                    smooth: 0.2,
+                    length: 10,
+                    length2: 20
+                }
+            },
+            label: {
+                normal: {
+                    textStyle: {
+                        color: '#5a5a5a'
+                    }
+                }
+            },
              avoidLabelOverlap: false,//防止标签重叠 true
              center: ['50%', '50%'],
              roseType : 'radius',
@@ -170,10 +195,9 @@ $(function () {
      function setborder(colors){
          var label={
              normal: {
-                 formatter: '{b|{c}}家\n{b|{b}}{hr|}\n',
+                 formatter: '{c|{c}}家\n{b|{b}}{hr|}\n',
                  borderWidth: 1,
                  borderRadius: 4,
-                 padding:[50,50,50,50],
                  rich: {
                      a: {
                          lineHeight: 10,
@@ -183,11 +207,16 @@ $(function () {
                          borderColor:colors,
                          width: '100%',
                          borderWidth: 0.5,
-                         height: 0
+                         height: 0,
                      },
                      b: {
                          fontSize: 12,
-                         lineHeight: 14
+                         lineHeight: 14,
+                         padding:[-250,-30],
+                         lineHeight:30
+                     },
+                     c:{
+                         padding:[0,0],
                      }
                  }
              }
