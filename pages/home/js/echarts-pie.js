@@ -170,9 +170,10 @@ $(function () {
      function setborder(colors){
          var label={
              normal: {
-                 formatter: '{c|{c}}家\n{b|{b}}{hr|}\n',
+                 formatter: '{b|{c}}家\n{b|{b}}{hr|}\n',
                  borderWidth: 1,
                  borderRadius: 4,
+                 padding:[50,50,50,50],
                  rich: {
                      a: {
                          lineHeight: 10,
