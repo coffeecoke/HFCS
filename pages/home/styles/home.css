@@ -224,7 +224,7 @@
   border: solid 1px #ccc;
   position: relative;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 .box-title-fl .box-right-nav .nav-list-animate {
   position: absolute;
@@ -264,7 +264,7 @@
   border: solid 1px #ccc;
   position: relative;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 18px;
 }
 .box-title-fr .box-right-navs .nav-list-animates {
   position: absolute;
