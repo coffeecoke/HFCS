@@ -23,16 +23,18 @@ $(function () {
                          borderColor:"#5a5a5a",
                          width: '100%',
                          borderWidth: 1,
-                         height: 0
+                         height: 0,
+                         
                      },
                      b: {
                          fontSize: 12,
-                         lineHeight: 14,
+                         lineHeight: 30,
                          color:'#5a5a5a'
                      },
                      c:{
                          fontSize:18,
-                         color:'#000'
+                         color:'#000',
+                         lineHeight:30,
                      }
                  }
              }
@@ -160,7 +162,7 @@ $(function () {
              labelLine: {
                 normal: {
                     lineStyle: {
-                        color: '#5a5a5a'
+                        color: '#dbdbdb'
                     },
                     smooth: 0.2,
                     length: 10,
@@ -195,9 +197,13 @@ $(function () {
      function setborder(colors){
          var label={
              normal: {
-                 formatter: '{c|{c}}家\n{b|{b}}{hr|}\n',
+                 formatter: '{c|{c}}%\n{b|{b}}{hr|}\n',
                  borderWidth: 1,
                  borderRadius: 4,
+                 textStyle: {
+                    color: '#000',
+                    fontWeight:'bold'
+                },
                  rich: {
                      a: {
                          lineHeight: 10,
@@ -211,12 +217,15 @@ $(function () {
                      },
                      b: {
                          fontSize: 12,
-                         lineHeight: 14,
-                         padding:[-250,-30],
+                         padding:[-250,-40],
                          lineHeight:30
                      },
                      c:{
-                         padding:[0,0],
+                         padding:[0,-2],
+                         lineHeight:10,
+                         color:'#000',
+                         fontWeight:"bold",
+                         fontSize:16,
                      }
                  }
              }
