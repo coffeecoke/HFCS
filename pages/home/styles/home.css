@@ -16,6 +16,9 @@
 .main-header .logo6 {
   background: url(../../../imgs/header/logo6.png) left center no-repeat;
 }
+.main-header .logo7 {
+  background: url(../../../imgs/header/logo7.png) left center no-repeat;
+}
 .sys-toggle {
   width: 364px;
   height: 70px;
@@ -25,7 +28,7 @@
 }
 .sys-toggle > .header-logo {
   position: absolute;
-  left: 0;
+  left: -10px;
   right: 0;
   top: 0;
   bottom: 0;
@@ -360,6 +363,35 @@
 }
 .header-information .header-info-list li dl dd p .down-span:after {
   background: url("../imgs/down.png") no-repeat center;
+}
+.shiel .left-shiel {
+  float: left;
+  width: 50%;
+  height: 210px;
+}
+.shiel .right-shiel {
+  float: right;
+  width: 50%;
+  height: 210px;
+  margin-top: 30px;
+}
+.shiel .right-shiel dl {
+  margin-bottom: 20px;
+}
+.shiel .right-shiel dl dt {
+  float: left;
+  margin-right: 10px;
+}
+.shiel .right-shiel dl dd {
+  float: left;
+}
+.shiel .right-shiel dl dd .list-title {
+  color: #6c84b9;
+  font-size: 12px;
+  padding-right: 15px;
+}
+.shiel .right-shiel dl dd .list-number {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=home.css.map */
