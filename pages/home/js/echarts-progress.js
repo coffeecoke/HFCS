@@ -129,7 +129,7 @@ var city = [ '恩科e贷   ', '冀金宝      ', '宜民贷      ', '冠腾贷  
                     formatter: function(data) {
                         // return '<span style="padding:10px 10px;">'+"增速"+'</span>'
                         //富文本固定格式{colorName|这里填你想要写的内容}
-                        return paiming[data.dataIndex] == 1 ? '{black|' + city[data.dataIndex]+ '}                       {black|存在风险点:}' + '{black|' + fenpeijine[data.dataIndex] / 10000 + '个}' : '{black|' + city[data.dataIndex] + '}                     {black|存在风险点:}' + '{black|' + fenpeijine[data.dataIndex] / 10000 + '个}';
+                        return paiming[data.dataIndex] == 1 ? '{black|' + city[data.dataIndex]+ '}                                   {black|存在风险点:}' + '{black|' + fenpeijine[data.dataIndex] / 10000 + '个}' : '{black|' + city[data.dataIndex] + '}                                {black|存在风险点:}' + '{black|' + fenpeijine[data.dataIndex] / 10000 + '个}';
                     },
                 }
             },
