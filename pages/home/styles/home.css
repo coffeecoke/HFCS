@@ -44,6 +44,7 @@
   background: url(../../../imgs/header/toggle-icon.png) left center no-repeat;
   z-index: 3;
   position: relative;
+  right: 30px;
 }
 .sys-toggle .dropdown-menu {
   width: 100%;
@@ -327,7 +328,7 @@
   width: 20%;
   height: 80px;
   float: left;
-  border-right: solid 1px #ccc;
+  border-right: solid 1px #ededed;
 }
 .header-information .header-info-list li dl dt {
   float: left;
