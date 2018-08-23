@@ -1,0 +1,202 @@
+.padding-content{
+    padding:10px;
+    .margin-b-10{
+        margin-bottom:10px;
+    }
+}
+.nav-list-page{
+    overflow:hidden;
+    .nav-list__ul{
+        width:100%;
+        margin-bottom: 0;
+        border-bottom:solid 1px #607eb2;
+        li{
+            float:left;
+            margin-right:5px;
+            padding:10px 30px 10px 15px;
+            background:-moz-linear-gradient(top,#d9dce7, #afb8cb);/*Mozilla*/
+            background:-webkit-gradient(linear,0 0%,0% 100%,from(#d9dce7),to(#afb8cb));/*Old gradient for webkit*/
+            background:-webkit-linear-gradient(top,#d9dce7, #afb8cb);/*new gradient for Webkit*/
+            background:-o-linear-gradient(top,#d9dce7, #afb8cb); 
+            background:-ms-linear-gradient(top,#d9dce7, #afb8cb); 
+            filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #5f7cba, endColorstr = #254183); 
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            color:#47588f;
+            position:relative;
+            cursor: pointer;
+            &:after{
+                position:absolute;
+                top:12px;
+                right:10px;
+                content:"";
+                width:10px;
+                height:10px;
+                background: url("../imgs/delect-blue-icon.png") no-repeat center;
+            }
+            &.active{
+                color:#fff;
+                background: #365293;
+                background:-moz-linear-gradient(top,#5f7cba, #254183);/*Mozilla*/
+                background:-webkit-gradient(linear,0 0%,0% 100%,from(#5f7cba),to(#254183));/*Old gradient for webkit*/
+                background:-webkit-linear-gradient(top,#5f7cba, #254183);/*new gradient for Webkit*/
+                background:-o-linear-gradient(top,#5f7cba, #254183); 
+                background:-ms-linear-gradient(top,#5f7cba, #254183); 
+                filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #5f7cba, endColorstr = #254183); 
+                &.active:after{
+                    background: url("../imgs/delect-white-icon.png") no-repeat center;
+                }
+                a{
+                    color:#fff;
+                }
+            }
+        }
+        
+
+        
+    }
+}
+
+.search-judge{
+    padding-left:20px;
+    .search-judge-if{
+        padding-top:16px;
+        label{
+            padding-left:20px;
+            .ipt-width{
+                width:212px;
+                height:26px;
+                border-radius: 5px;
+                outline: none;
+                border:solid 1px #ccc;
+                padding-left:10px;
+            }
+            .data-ipt{
+                width:150px;
+            }
+            .sel-width{
+                widows: 60px;
+                height:28px;
+            }
+            .btn-group{
+                .drop-width{
+                    min-width:80px;
+                }
+            }
+        }
+        .btn-search{
+            padding:8px 10px 8px 30px;
+            display: inline-block;
+            background: #385495;
+            color:#fff;
+            border-radius: 5px;
+            margin-left:30px;
+            outline: none;
+            position:relative;
+            &:before{
+                content:"";
+                width:20px;
+                height:20px;
+                position: absolute;
+                top:6px;
+                left:6px;
+                background:url("../imgs/search-icon.png") no-repeat center;
+            }
+        }
+        
+    }
+    .search-judge-btn{
+        ul{
+            li{
+                float: left;
+                padding:8px 20px;
+                margin-left:5px;
+                border-radius: 5px;
+                background:-moz-linear-gradient(top,#d9dce7, #afb8cb);/*Mozilla*/
+                background:-webkit-gradient(linear,0 0%,0% 100%,from(#d9dce7),to(#afb8cb));/*Old gradient for webkit*/
+                background:-webkit-linear-gradient(top,#d9dce7, #afb8cb);/*new gradient for Webkit*/
+                background:-o-linear-gradient(top,#d9dce7, #afb8cb); 
+                background:-ms-linear-gradient(top,#d9dce7, #afb8cb); 
+                filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 0, startColorstr = #5f7cba, endColorstr = #254183); 
+                
+            }
+            .judge-btn{
+                a{
+                    color:#47588f;
+                    width:100%;
+                    padding-left:18px;
+                    display: inline-block;
+                }
+            }
+            .btn1{
+                a{
+                    background: url(../imgs/upgrade.png) no-repeat left;
+                }
+            }
+            .btn2{
+                a{
+                    background: url(../imgs/upgrade1.png) no-repeat left;
+                    }
+            }
+            .btn3{
+                a{
+                    background: url(../imgs/upgrade2.png) no-repeat left;
+                    }
+            }
+            .btn4{
+                a{
+                    background: url(../imgs/upgrade3.png) no-repeat left;
+                    }
+            }
+            .btn5{
+                a{
+                    background: url(../imgs/upgrade4.png) no-repeat left;
+                    }
+            }
+        }
+    }
+}
+
+.box-table-list{
+    margin-bottom:0;
+    thead{
+        width:100%;
+        height:36px;
+        background:#3b5ba2;
+        tr{
+            th{
+                color:#fff;
+                text-align: center;
+            }
+            .th-left{
+                text-align: left;
+            }
+        }
+    }
+    tbody{
+        tr{
+            td{
+                text-align: center;
+                border-bottom:solid 1px #cbcdd2;
+                span{
+                    color:#6c84b9;
+                }
+            }
+            .td-left{
+                text-align: left;
+            }
+        }
+    }
+}
+.pagination-page{
+    float: right;
+    padding-right:20px;
+    .pagination-prev{
+        margin-right:10px;
+    }
+    span{
+        display:inline-block;
+        padding-top:10px;
+        padding-left:10px;
+    }
+}

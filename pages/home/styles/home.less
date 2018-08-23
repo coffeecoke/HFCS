@@ -123,6 +123,9 @@
                 background-color: #495893;
                 border-radius: 20px;
                 color: #fff !important;
+                span{
+                    color:#fff;
+                }
             }
         }
         .dropdown-toggle {
@@ -137,7 +140,11 @@
             border: none;
             z-index: 1;
             padding-top: 48px;
-            background: -webkit-linear-gradient(to right, rgba(38, 56, 128, .8), rgba(98, 130, 186, .8));
+            background:-moz-linear-gradient(left,rgba(38, 56, 128, .8), rgba(98, 130, 186, .8));/*Mozilla*/
+            background:-webkit-gradient(linear,0 50%,100% 50%,from(rgba(38, 56, 128, .8)),to(rgba(98, 130, 186, .8)));/*Old gradient for webkit*/
+            background:-webkit-linear-gradient(left,rgba(38, 56, 128, .8), rgba(98, 130, 186, .8));/*new gradient for Webkit*/
+            background:-o-linear-gradient(left,rgba(38, 56, 128, .8), rgba(98, 130, 186, .8)); 
+            background:-linear-gradient(left, rgba(38, 56, 128, .8), rgba(98, 130, 186, .8));
         }
         .arrow-down{
             width: 12px;

@@ -116,6 +116,9 @@
   border-radius: 20px;
   color: #fff !important;
 }
+.navbar-static-top .nav-container .navbar-active a span {
+  color: #fff;
+}
 .navbar-static-top .nav-container .dropdown-toggle {
   float: left;
   line-height: 70px;
@@ -128,7 +131,12 @@
   border: none;
   z-index: 1;
   padding-top: 48px;
-  background: -webkit-linear-gradient(to right, rgba(38, 56, 128, 0.8), rgba(98, 130, 186, 0.8));
+  /*Mozilla*/
+  background: -webkit-gradient(linear, 0 50%, 100% 50%, from(rgba(38, 56, 128, 0.8)), to(rgba(98, 130, 186, 0.8)));
+  /*Old gradient for webkit*/
+  background: -webkit-linear-gradient(left, rgba(38, 56, 128, 0.8), rgba(98, 130, 186, 0.8));
+  /*new gradient for Webkit*/
+  background: -linear-gradient(left, rgba(38, 56, 128, 0.8), rgba(98, 130, 186, 0.8));
 }
 .navbar-static-top .nav-container .arrow-down {
   width: 12px;

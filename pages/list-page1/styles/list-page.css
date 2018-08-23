@@ -1,0 +1,176 @@
+.padding-content {
+  padding: 10px;
+}
+.padding-content .margin-b-10 {
+  margin-bottom: 10px;
+}
+.nav-list-page {
+  overflow: hidden;
+}
+.nav-list-page .nav-list__ul {
+  width: 100%;
+  margin-bottom: 0;
+  border-bottom: solid 1px #607eb2;
+}
+.nav-list-page .nav-list__ul li {
+  float: left;
+  margin-right: 5px;
+  padding: 10px 30px 10px 15px;
+  /*Mozilla*/
+  background: -webkit-gradient(linear, 0 0%, 0% 100%, from(#d9dce7), to(#afb8cb));
+  /*Old gradient for webkit*/
+  background: -webkit-linear-gradient(top, #d9dce7, #afb8cb);
+  /*new gradient for Webkit*/
+  background: -ms-linear-gradient(top, #d9dce7, #afb8cb);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#5f7cba, endColorstr=#254183);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #47588f;
+  position: relative;
+  cursor: pointer;
+}
+.nav-list-page .nav-list__ul li:after {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: url("../imgs/delect-blue-icon.png") no-repeat center;
+}
+.nav-list-page .nav-list__ul li.active {
+  color: #fff;
+  background: #365293;
+  /*Mozilla*/
+  background: -webkit-gradient(linear, 0 0%, 0% 100%, from(#5f7cba), to(#254183));
+  /*Old gradient for webkit*/
+  background: -webkit-linear-gradient(top, #5f7cba, #254183);
+  /*new gradient for Webkit*/
+  background: -ms-linear-gradient(top, #5f7cba, #254183);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#5f7cba, endColorstr=#254183);
+}
+.nav-list-page .nav-list__ul li.active.active:after {
+  background: url("../imgs/delect-white-icon.png") no-repeat center;
+}
+.nav-list-page .nav-list__ul li.active a {
+  color: #fff;
+}
+.search-judge {
+  padding-left: 20px;
+}
+.search-judge .search-judge-if {
+  padding-top: 16px;
+}
+.search-judge .search-judge-if label {
+  padding-left: 20px;
+}
+.search-judge .search-judge-if label .ipt-width {
+  width: 212px;
+  height: 26px;
+  border-radius: 5px;
+  outline: none;
+  border: solid 1px #ccc;
+  padding-left: 10px;
+}
+.search-judge .search-judge-if label .data-ipt {
+  width: 150px;
+}
+.search-judge .search-judge-if label .sel-width {
+  widows: 60px;
+  height: 28px;
+}
+.search-judge .search-judge-if label .btn-group .drop-width {
+  min-width: 80px;
+}
+.search-judge .search-judge-if .btn-search {
+  padding: 8px 10px 8px 30px;
+  display: inline-block;
+  background: #385495;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 30px;
+  outline: none;
+  position: relative;
+}
+.search-judge .search-judge-if .btn-search:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: url("../imgs/search-icon.png") no-repeat center;
+}
+.search-judge .search-judge-btn ul li {
+  float: left;
+  padding: 8px 20px;
+  margin-left: 5px;
+  border-radius: 5px;
+  /*Mozilla*/
+  background: -webkit-gradient(linear, 0 0%, 0% 100%, from(#d9dce7), to(#afb8cb));
+  /*Old gradient for webkit*/
+  background: -webkit-linear-gradient(top, #d9dce7, #afb8cb);
+  /*new gradient for Webkit*/
+  background: -ms-linear-gradient(top, #d9dce7, #afb8cb);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#5f7cba, endColorstr=#254183);
+}
+.search-judge .search-judge-btn ul .judge-btn a {
+  color: #47588f;
+  width: 100%;
+  padding-left: 18px;
+  display: inline-block;
+}
+.search-judge .search-judge-btn ul .btn1 a {
+  background: url(../imgs/upgrade.png) no-repeat left;
+}
+.search-judge .search-judge-btn ul .btn2 a {
+  background: url(../imgs/upgrade1.png) no-repeat left;
+}
+.search-judge .search-judge-btn ul .btn3 a {
+  background: url(../imgs/upgrade2.png) no-repeat left;
+}
+.search-judge .search-judge-btn ul .btn4 a {
+  background: url(../imgs/upgrade3.png) no-repeat left;
+}
+.search-judge .search-judge-btn ul .btn5 a {
+  background: url(../imgs/upgrade4.png) no-repeat left;
+}
+.box-table-list {
+  margin-bottom: 0;
+}
+.box-table-list thead {
+  width: 100%;
+  height: 36px;
+  background: #3b5ba2;
+}
+.box-table-list thead tr th {
+  color: #fff;
+  text-align: center;
+}
+.box-table-list thead tr .th-left {
+  text-align: left;
+}
+.box-table-list tbody tr td {
+  text-align: center;
+  border-bottom: solid 1px #cbcdd2;
+}
+.box-table-list tbody tr td span {
+  color: #6c84b9;
+}
+.box-table-list tbody tr .td-left {
+  text-align: left;
+}
+.pagination-page {
+  float: right;
+  padding-right: 20px;
+}
+.pagination-page .pagination-prev {
+  margin-right: 10px;
+}
+.pagination-page span {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/*# sourceMappingURL=list-page.css.map */

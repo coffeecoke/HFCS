@@ -28,5 +28,200 @@
 .sidebar-menu .treeview .slide-icon7 {
   background: url(../../imgs/slider-bar/slider-icon7.png) center no-repeat;
 }
+.main-header .logo1 {
+  background: url('../../imgs/header/logo1.png') left center no-repeat;
+}
+.main-header .logo2 {
+  background: url(../../imgs/header/logo2.png) left center no-repeat;
+}
+.main-header .logo3 {
+  background: url(../../imgs/header/logo3.png) left center no-repeat;
+}
+.main-header .logo4 {
+  background: url(../../imgs/header/logo4.png) left center no-repeat;
+}
+.main-header .logo5 {
+  background: url(../../imgs/header/logo5.png) left center no-repeat;
+}
+.main-header .logo6 {
+  background: url(../../imgs/header/logo6.png) left center no-repeat;
+}
+.main-header .logo7 {
+  background: url(../../imgs/header/logo7.png) left center no-repeat;
+}
+.sys-toggle {
+  width: 364px;
+  height: 70px;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+}
+.sys-toggle > .header-logo {
+  position: absolute;
+  left: -10px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.sys-toggle .dropdown-toggle {
+  float: right;
+  margin-right: 10px;
+  color: #b9caff;
+  font-size: 12px;
+  line-height: 70px;
+  padding-left: 30px;
+  background: url(../../imgs/header/toggle-icon.png) left center no-repeat;
+  z-index: 3;
+  position: relative;
+  right: 30px;
+}
+.sys-toggle .dropdown-menu {
+  width: 100%;
+  min-height: 400px;
+  top: 4px;
+  z-index: 1;
+  padding-top: 80px;
+  background: -webkit-linear-gradient(left, rgba(38, 56, 128, 0.8), rgba(98, 130, 186, 0.8));
+  border: none;
+}
+.sys-toggle .dropdown-menu > ul > li {
+  width: 100%;
+  height: 70px;
+  cursor: pointer;
+  position: relative;
+}
+.sys-toggle .dropdown-menu > ul > li.active:after,
+.sys-toggle .dropdown-menu > ul > li:hover:after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: url(../../imgs/header/right-icon.png) center no-repeat;
+}
+.navbar-static-top .user-info {
+  float: right;
+}
+.navbar-static-top .nav-container {
+  position: relative;
+  float: right;
+  margin-right: 20px;
+}
+.navbar-static-top .nav-container .navbar-nav {
+  float: left;
+  position: relative;
+  z-index: 2;
+}
+.navbar-static-top .nav-container .navbar-active .icon {
+  position: relative;
+}
+.navbar-static-top .nav-container .navbar-active .icon:before {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  left: -3px;
+  right: -3px;
+  top: -3px;
+  bottom: -3px;
+  border-radius: 50%;
+  background-color: #717ca9;
+}
+.navbar-static-top .nav-container .navbar-active .icon:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  left: -6px;
+  right: -6px;
+  top: -6px;
+  bottom: -6px;
+  border-radius: 50%;
+  background-color: #58659b;
+}
+.navbar-static-top .nav-container .navbar-active a {
+  background-color: #495893;
+  border-radius: 20px;
+  color: #fff !important;
+}
+.navbar-static-top .nav-container .navbar-active a span {
+  color: #fff;
+}
+.navbar-static-top .nav-container .dropdown-toggle {
+  float: left;
+  line-height: 70px;
+}
+.navbar-static-top .nav-container .dropdown-menu {
+  left: -16px;
+  right: -16px;
+  min-height: 100px;
+  top: 4px;
+  border: none;
+  z-index: 1;
+  padding-top: 48px;
+  /*Mozilla*/
+  background: -webkit-gradient(linear, 0 50%, 100% 50%, from(rgba(38, 56, 128, 0.8)), to(rgba(98, 130, 186, 0.8)));
+  /*Old gradient for webkit*/
+  background: -webkit-linear-gradient(left, rgba(38, 56, 128, 0.8), rgba(98, 130, 186, 0.8));
+  /*new gradient for Webkit*/
+  background: -linear-gradient(left, rgba(38, 56, 128, 0.8), rgba(98, 130, 186, 0.8));
+}
+.navbar-static-top .nav-container .arrow-down {
+  width: 12px;
+  height: 6px;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(../../imgs/header/arrow-down.png) center no-repeat;
+}
+.navbar-static-top .nav-container .nav > li > a {
+  font-size: 14px;
+  color: #b9caff !important;
+}
+.navbar-static-top .nav-container .nav > li > a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.navbar-static-top .nav-container .icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  position: relative;
+}
+.navbar-static-top .nav-container .icon .icon-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.navbar-static-top .nav-container .navbar-icon1 .icon-inner {
+  background: url(../../imgs/header/navbar-icon1-active.png) center no-repeat;
+  background-size: 80% 80%;
+}
+.navbar-static-top .nav-container .navbar-icon2 .icon-inner {
+  background: url(../../imgs/header/navbar-icon2.png) center no-repeat;
+  background-size: 80% 80%;
+}
+.navbar-static-top .nav-container .navbar-icon3 .icon-inner {
+  background: url(../../imgs/header/navbar-icon3.png) center no-repeat;
+  background-size: 80% 80%;
+}
+.navbar-static-top .nav-container .navbar-icon4 .icon-inner {
+  background: url(../../imgs/header/navbar-icon4.png) center no-repeat;
+  background-size: 80% 80%;
+}
+.navbar-static-top .nav-container .navbar-icon5 .icon-inner {
+  background: url(../../imgs/header/navbar-icon5.png) center no-repeat;
+  background-size: 80% 80%;
+}
+.navbar-static-top .nav-container .navbar-icon6 .icon-inner {
+  background: url(../../imgs/header/navbar-icon6.png) center no-repeat;
+  background-size: 80% 80%;
+}
 
 /*# sourceMappingURL=main.css.map */
