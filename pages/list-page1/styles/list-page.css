@@ -1,3 +1,9 @@
+.padding-content {
+  padding: 10px;
+}
+.padding-content .margin-b-10 {
+  margin-bottom: 10px;
+}
 .nav-list-page {
   overflow: hidden;
 }
@@ -66,9 +72,15 @@
   border: solid 1px #ccc;
   padding-left: 10px;
 }
+.search-judge .search-judge-if label .data-ipt {
+  width: 150px;
+}
 .search-judge .search-judge-if label .sel-width {
   widows: 60px;
   height: 28px;
+}
+.search-judge .search-judge-if label .btn-group .drop-width {
+  min-width: 80px;
 }
 .search-judge .search-judge-if .btn-search {
   padding: 8px 10px 8px 30px;
@@ -133,12 +145,20 @@
 }
 .box-table-list thead tr th {
   color: #fff;
+  text-align: center;
+}
+.box-table-list thead tr .th-left {
+  text-align: left;
 }
 .box-table-list tbody tr td {
+  text-align: center;
   border-bottom: solid 1px #cbcdd2;
 }
 .box-table-list tbody tr td span {
   color: #6c84b9;
+}
+.box-table-list tbody tr .td-left {
+  text-align: left;
 }
 .pagination-page {
   float: right;
