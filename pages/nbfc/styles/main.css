@@ -250,7 +250,7 @@ body {
 }
 .wrap .header {
   width: 1100px;
-  height: 50px;
+  height: 60px;
   margin: 0 auto;
 }
 .wrap .header__logo {
@@ -264,8 +264,8 @@ body {
   float: right;
 }
 .wrap .header__navbar li {
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  line-height: 60px;
   padding: 0 20px;
   margin-right: 20px;
   color: #b9caff;
@@ -279,8 +279,8 @@ body {
   float: right;
 }
 .wrap .header__info .user {
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  line-height: 60px;
   display: block;
   float: left;
   font-size: 14px;
@@ -290,7 +290,7 @@ body {
   display: block;
   float: left;
   width: 30px;
-  height: 50px;
+  height: 60px;
   margin: 0 10px;
   background: url(../imgs/setting-icon.png) center no-repeat;
 }
@@ -298,7 +298,7 @@ body {
   display: block;
   float: left;
   width: 30px;
-  height: 50px;
+  height: 60px;
   background: url(../imgs/sign-out.png) center no-repeat;
 }
 .wrap .w1100 {

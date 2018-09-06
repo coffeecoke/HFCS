@@ -58,3 +58,6 @@ function showAuto()
     $("#banner li").eq(n).trigger('click');
 
 }
+$(".header__navbar li").click(function(){
+    $(this).addClass("active").siblings().removeClass("active");
+})
