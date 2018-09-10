@@ -1085,8 +1085,7 @@ if (typeof jQuery === 'undefined') {
       Tree.prototype._setUpListeners = function () {
         var that = this
     
-        $(this.element).on('click', this.options.trigger, function (event) {
-          alert(1)
+        $(this.element).on('mouseover', this.options.trigger, function (event) {
           that.toggle($(this), event)
         })
       }

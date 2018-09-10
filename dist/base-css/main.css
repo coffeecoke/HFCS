@@ -638,7 +638,6 @@ a:focus {
 .main-sidebar .user-panel,
 .sidebar-menu > li.header {
   white-space: nowrap;
-  overflow: hidden;
 }
 .sidebar-menu:hover {
   overflow: visible;
@@ -3210,28 +3209,30 @@ table.text-center th {
 .treeview-menu {
   display: none;
   list-style: none;
-  padding: 0;
   margin: 0;
-  border: 1px solid #d0d2d6;
-  padding: 18px;
+  padding: 10px;
   position: absolute;
   width: 250px;
-  left: 90px;
-  top: 50px;
-  background-color: #e0e1e8;
+  left: 100%;
+  top: 0px;
+}
+.treeview-menu .treeview-menu-inner {
+  padding: 15px;
+  border: 1px solid #d0d2d6;
+  background-color: #e0e1e8 !important;
   border-radius: 5px;
 }
-.treeview-menu:before {
+.treeview-menu > .arrow {
   content: '';
   position: absolute;
   top: 20px;
-  left: -5px;
+  left: 5px;
   width: 10px;
   height: 10px;
   border: inherit;
   border-right: none;
   border-top: none;
-  background-color: inherit;
+  background-color: #e0e1e8;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
