@@ -1086,6 +1086,7 @@ if (typeof jQuery === 'undefined') {
         var that = this
     
         $(this.element).on('click', this.options.trigger, function (event) {
+          alert(1)
           that.toggle($(this), event)
         })
       }
@@ -1093,6 +1094,7 @@ if (typeof jQuery === 'undefined') {
       // Plugin Definition
       // =================
       function Plugin(option) {
+        console.log(option)
         return this.each(function () {
           var $this = $(this)
           var data  = $this.data(DataKey)

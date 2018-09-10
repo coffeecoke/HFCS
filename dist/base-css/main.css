@@ -627,17 +627,6 @@ a:focus {
     margin-left: 360px;
   }
 }
-.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu > li:hover > .treeview-menu {
-  display: block !important;
-  position: absolute;
-  width: 250px;
-  left: 90px;
-  background-color: #e0e1e8;
-}
-.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu > li:hover > .treeview-menu {
-  top: 0px;
-  margin-left: 0;
-}
 .sidebar-expanded-on-hover .main-footer,
 .sidebar-expanded-on-hover .content-wrapper {
   margin-left: 50px;
@@ -3228,6 +3217,7 @@ table.text-center th {
   position: absolute;
   width: 250px;
   left: 90px;
+  top: 50px;
   background-color: #e0e1e8;
   border-radius: 5px;
 }
